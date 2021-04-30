@@ -121,9 +121,9 @@ The function inside the useEffect hook is what will be run on each render.
 When `First` component is mounted, the console logs the following:
 
 ```bash
-  called on render
-  called when cleaning up
-  called on render
+called on render
+called when cleaning up
+called on render
 ```
 
 When the component is first mounted "called on render" is logged.
@@ -230,26 +230,8 @@ On lines 34 - 36 we check if `error` has a value. If it does we return an error 
 
 One lines 38 - 44 we map over the books array and return some JSX for each item. Because the map method returns a new array, an array of JSX will be rendered.
 
-One line 41 we provied a value for the `key` prop. Each parent item returned in an array like this needs a unique key value.
+One line 41 we provided a value for the `key` prop. Each parent item returned in an array like this needs a unique key value.
 
-[Watch on Vimeo](https://vimeo.com/517815053/67234c3040)
-
-[Code from the video](https://github.com/NoroffFEU/making-a-GET-request-in-a-component)
-
-## Lesson Task
-
-The lesson task is in [this repo](https://github.com/NoroffFEU/lesson-task-js-frameworks-module2-lesson2), with an example answer on the answer branch.
-
-## Activities
-
-## Read
-
-The official docs:
+## React Docs
 
 - [Using the effect hook](https://reactjs.org/docs/hooks-effect.html)
-
-[Go to lesson 3](https://react-content.netlify.app/2mhio/3)
-
-```
-
-```
