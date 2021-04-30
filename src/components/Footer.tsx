@@ -2,7 +2,7 @@ type FooterProps = {
   content: string;
 };
 // this is the footer component
-const Header = ({ content }: FooterProps): JSX.Element => {
+const Footer = ({ content }: FooterProps): JSX.Element => {
   return <Footer>{content}</Footer>;
 };
 
