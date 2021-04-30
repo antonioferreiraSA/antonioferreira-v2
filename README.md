@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# APIS
+
+https://afdesign.co.za/wp-json/wp/v2/posts/
+https://api.github.com/users/antonioferreiraSA/repos
+
 ## Available Scripts
 
 In the project directory, you can run:
