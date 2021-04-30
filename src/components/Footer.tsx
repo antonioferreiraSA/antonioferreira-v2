@@ -3,6 +3,7 @@ type FooterProps = {
 };
 
 const Footer = ({ content }: FooterProps): JSX.Element => {
+  console.log(content);
   return <footer>{content}</footer>;
 };
 
