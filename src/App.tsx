@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Footer content="This is the footer" />
-      <Header/>
+      <Header  content="This is the header "/>
       
     </>
   );
