@@ -1,6 +1,4 @@
-# Lesson 2 | Module 2 | React
-
-[Source](https://react-content.netlify.app/2mhio/2 'Permalink to Lesson 2 | Module 2 | React')
+# Hooks
 
 ## Map method
 
