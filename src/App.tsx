@@ -1,5 +1,6 @@
 import "./App.css";
 
+import Booklist from "./components/books/Booklist";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
@@ -12,6 +13,7 @@ function App() {
         content="Hello world I am the HEADER"
       />
       <Footer content="This is the footer" />
+      <Booklist/>
     </>
   );
 }
