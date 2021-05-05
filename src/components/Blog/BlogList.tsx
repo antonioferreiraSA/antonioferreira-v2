@@ -42,14 +42,23 @@ export default function BlogList() {
     return <div>Ooops please reload page, an error happened.</div>;
   }
 
-  const renderPosts = posts.map((post) => {
-    return console.log(post);
+  function createMarkup(data: any): any {
+    return { __html: data };
+  }
+
+  const renderPosts = posts.map((post: any): any => {
+    return (
+      <div key={post.id}>
+        <h1>{post.title.rendered}</h1>
+        <div dangerouslySetInnerHTML={createMarkup(post.content.rendered)} />
+      </div>
+    );
   });
 
   return (
     <>
       <h1>Blog list</h1>
-      {renderPosts}
+      {!posts ? "" : renderPosts}
     </>
   );
 }
